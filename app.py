@@ -6,16 +6,16 @@ model = pickle.load(open('final.pkl', 'rb'))
 
 st.title('Will the person get a heart attack or not')
 
-age= st.slider("age")
-sex= st.slider("sex")
-cp= st.slider("Chest Pain")
-fbs= st.slider("fasting blood sugar")
-restecg=st.slider("Resting electrocardiographic results")
-thalachh=st.slider("Maximum heart rate achieved")
-exng=st.slider("Exercise induced angina")
-oldpeak=st.slider("Previous peak")
-caa=st.slider("Number of major vessels")
-thall=st.slider("Thal rate")
+age= st.slider("age", 29,77)
+sex= st.slider("sex", 0,1)
+cp= st.slider("Chest Pain", 0,3)
+fbs= st.slider("fasting blood sugar", 0,1)
+restecg=st.slider("Resting electrocardiographic results", 0,2)
+thalachh=st.slider("Maximum heart rate achieved", 71,202)
+exng=st.slider("Exercise induced angina", 0,1)
+oldpeak=st.slider("Previous peak", 0,6.2)
+caa=st.slider("Number of major vessels", 0,4)
+thall=st.slider("Thal rate", 0,3)
 
 
 
