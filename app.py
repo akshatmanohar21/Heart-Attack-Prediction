@@ -13,7 +13,7 @@ fbs= st.slider("fasting blood sugar", 0,1)
 restecg=st.slider("Resting electrocardiographic results", 0,2)
 thalachh=st.slider("Maximum heart rate achieved", 71,202)
 exng=st.slider("Exercise induced angina", 0,1)
-oldpeak=st.slider("Previous peak", 0,6)
+oldpeak=st.slider("Previous peak", 0,2.3)
 caa=st.slider("Number of major vessels", 0,4)
 thall=st.slider("Thal rate", 0,3)
 
